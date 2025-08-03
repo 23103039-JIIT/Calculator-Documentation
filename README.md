@@ -2,10 +2,7 @@
 
 ## Repository chosen: **maxicombina/c-calculator**
 
-
-## Function Overview
-
-## **Key functions in `calculator.c` / `calculator.h`**
+### Function Overview
 
 1. **`void tokenize(const char* expr, Token tokens[], int* token_count)`**
 
@@ -35,7 +32,7 @@
 
 ---
 
-## Features
+### Features
 
 - Infix to postfix (RPN) conversion using the Shunting-Yard algorithm
 - Stack-based evaluation of postfix expressions
@@ -46,7 +43,7 @@
 
 ---
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/maxicombina/c-calculator.git
@@ -55,7 +52,7 @@ cd c-calculator
 
 ---
 
-## Project Structure
+### Project Structure
 
 ```
 c-calculator/
@@ -67,7 +64,7 @@ c-calculator/
 
 ---
 
-## Limitations
+### Limitations
 
 * No float/double (only integer arithmetic)
 * No unary operators (e.g., cannot write `-5`, must use `0 - 5`)
